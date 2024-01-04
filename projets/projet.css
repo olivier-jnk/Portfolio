@@ -1,0 +1,17 @@
+.dev{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.dev p{
+    font-size: 1.5vw;
+}
+
+.img img{
+    width: 100%;
+}
+
+a, p, h1, h2, h3{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}

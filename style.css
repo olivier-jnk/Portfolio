@@ -1,0 +1,337 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: #E9A8F2;
+}
+
+::selection {
+    background-color: #F3CCF3; 
+    color: #000;
+  }
+
+a, p, h1, h2, h3{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+header p{
+    margin: 5%;
+}
+
+header img{
+    margin: 5%;
+}
+
+main{ 
+    width: 80%;
+}
+
+.accueil{
+    display: flex;
+    flex-direction: column;
+}
+
+.accueil p{
+    font-size: 2vw;
+    margin: 0;
+}
+
+.accueil h1{
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+.content1{
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.redirection ul{
+    display: flex;
+    gap: 5%;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5%;
+}
+
+
+.redirection ul li{
+    display: flex;
+    align-items: center;
+}
+
+.redirection ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.redirection ul li a:hover{
+    text-decoration: underline;
+}
+
+.projets{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+.projets .projet{
+    display: flex;
+    position: relative;
+    width: 45%;
+}
+
+.projets .projet .titre h2{
+    margin-left: 5%;
+}
+
+.projets .projet .titre img{
+    height: 2vw;
+    width: 2vw;
+}
+
+
+.projets .projet .informations .txt{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+.projets .projet .informations .txt p{
+    width: 90%;
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+    color: white;
+}
+
+.projets .projet .img{
+    margin-right: 5%;
+}
+
+.projets .projet img{
+    width: 100%;
+}
+
+/* Projets bg images */
+
+.projets .projet .bg-image{
+    /* background-image: url(images/078862263fe8fc193cecd69721a6be70-cabane-du-Paraclet-saone-et-loire-1600x900.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+}
+
+.projets .num1 .bg-image{
+    background-image: url(images/078862263fe8fc193cecd69721a6be70-cabane-du-Paraclet-saone-et-loire-1600x900.jpg);
+}
+
+.projets .num2 .bg-image{
+    background-image: url(images/2da2abd49302801a1bff6a8d78b2823195fe903c.jpg);
+}
+
+
+.projets .num3 .bg-image{
+    background-image: url(images/Sans\ titre\ \(4\).jpg);
+}
+
+
+.projets .num4 .bg-image{
+    background-image: url(images/CVscreen4.png);
+}
+
+/* Projets */
+.projets .projet .titre{
+    display: flex;
+    position: absolute;
+    /* top: 10%;
+    left: 10%; */
+    width: 100%;
+    background-color: #F3CCF3;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    /* height: 15%; */
+}
+
+.projets .projet .informations{
+    display: flex;
+    position: absolute;
+    /* column ? */
+    top: 14%;
+    width: 100%;
+    height: 86%;
+    z-index: 0;
+    /* background-color: #DC84F3; */
+    /* background: linear-gradient(to top,#DC84F3, rgba(255, 0, 0, 0)); */
+    /* bg color none.  en visibility hidden.*/
+}
+
+.informations .tech-used img{
+    width: 5%;
+}
+
+.projets .projet .informations:hover{
+    background-color: #DC84F3;
+    /* background: linear-gradient(to top,#DC84F3, #DC84F380); */
+    background: #00000090;
+}
+
+/* Mise en place du systeme d'apparition d'informations au hover. */
+.informations p,h1,img{
+    visibility: hidden;
+}
+
+.informations:hover p,h1,img{
+    visibility: visible;
+    
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #DC84F3;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 20%;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+    
+}
+
+footer ul li:hover a{
+    color: white;
+    
+}
+
+footer ul.contact{
+    margin-right: 5%;
+}
+
+/* Responsive */
+
+@media (min-width: 2000px ){
+
+    
+    .projets .projet .titre img {
+        height: 1vw;
+        width: 1vw;
+    }
+
+    header img{
+        height: 7vh;
+    }
+
+}
+
+@media (min-width: 1650px ){
+    .accueil .content1 .face img{
+        height: 40vh;
+    }
+
+}
+
+@media (max-width: 950px ){
+
+    .projets .projet .bg-image {
+
+        height: 50vh;
+    }
+
+
+}
+
+@media (max-width: 750px ){
+
+    .content1{
+        flex-direction: column-reverse;
+    }
+
+    .main{
+        width: 90%;
+    }
+
+    .face{
+        display: flex;
+        justify-content: center;
+    }
+
+    .projets{
+        justify-content: center;
+    }
+
+    .projets .projet .bg-image {
+        height: 40vh;
+    }
+
+    .accueil p{ font-size: 4.5vw;}
+    .accueil h1{ font-size: 8vw;}
+
+    .redirection ul li a {
+        font-size: 3.5vw;
+    }
+
+    .projets .projet .titre img {
+        height: 3vw;
+        width: 3vw;
+    }
+
+    .projets .projet .informations .txt p {
+
+        font-size: 2vw;
+    }
+
+    footer ul li a {
+        font-size: 4vw;
+    }
+
+    footer ul.contact {
+        margin-right: 10%;
+    }
+
+}
+
+@media (max-width: 450px ){
+    .projets .projet {
+        width: 100%;
+    }
+
+    .projets .projet .titre img {
+        height: 5vw;
+        width: 5vw;
+    }
+
+    .projets .projet .informations .txt p {
+
+        font-size: 3.5vw;
+    }
+}
