@@ -62,7 +62,8 @@ main{
 
 .redirection ul{
     display: flex;
-    gap: 5%;
+    gap: 2%;
+    /* Ancien gap 5% à jauger. */
     text-decoration: none;
     list-style-type: none;
     padding-left: 0;
