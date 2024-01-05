@@ -32,3 +32,17 @@ a, p, h1, h2, h3{
     color: black;
     text-decoration: none;
 }
+
+.titre ul img{
+    width: 5vw;
+    /* height: 5vh; */
+}
+
+.titre ul li a:hover{
+    text-decoration: underline;
+
+}
+
+.titre ul li a:hover li{
+    padding: 5%;
+}
