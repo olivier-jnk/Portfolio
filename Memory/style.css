@@ -1,0 +1,40 @@
+div.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+h1{
+    color: #7D0A0A;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    width: 45%;
+}
+
+#cartes li.invisible img{
+    background-color: black;
+    visibility: hidden;
+}
+
+#cartes li img{
+    background-color: black;
+    visibility: visible;
+}
+#cartes li{
+    background-color: black;
+}

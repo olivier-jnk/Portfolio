@@ -1,0 +1,564 @@
+@font-face {
+    font-family: Anton;
+    src: url(fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+    font-family: PTSans;
+    src: url(fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Blacksword;
+    src: url(fonts/Blacksword.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+body{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p, a{
+    font-family: Roboto;
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3, span{
+    font-family: Anton;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    align-items: center;  
+    overflow: hidden;
+    padding: 1%;
+    background-color:#95cfef ;
+}
+
+header .precohead{
+    display: none;
+}
+
+header .logo{
+    font-size: 5vw;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+::placeholder {
+    text-align: center;
+ }
+
+ .infos:focus {
+    padding-left: 20px; 
+    /* Ajuste la valeur quand input est en focus */
+}
+
+.fcontent{
+    position: relative;
+    display: flex;
+}
+
+.fcontent img{
+    width: 100vw;
+}
+
+.fcontent .txt h1{
+    color: white;
+    font-size: 7vw;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    max-width: 85vw;
+    letter-spacing: 0.1em;
+}
+
+.fcontent .txt h1 span.gradient{
+    background: -webkit-linear-gradient(#340f07, #f5ea54);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fcontent .txt p.un {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    top: 49%;
+    left: 5%;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.fcontent .txt p.deux {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    top: 74%;
+    left: 48%;
+    font-family: 'Kaushan Script', cursive;
+    color: #f7e956;
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient( black,#392416,#092b3e,#4a294d, black);
+}
+
+.qualities{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+    
+}
+
+.qualities img{
+    width: 85vw;
+}
+
+.quality{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 1;
+}
+
+.quality p{
+    font-size: 5vw;
+}
+
+.quality .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 85vw;
+
+}
+
+.quality .txt h2{
+    font-size: 10vw;
+    font-weight: 700;
+} 
+
+.qualities .resistance h2{
+    color: #b7ab9e !important;
+}
+
+.resistance .txt p{
+    color: #cd855d;
+}
+
+
+.confort .txt h2{
+    color: #ef86fb;
+}
+
+.confort .txt p{
+    color: #f7d6ff;
+}
+
+.fluidite .txt h2{
+    color: #80ece5;
+
+}
+.fluidite .txt p{
+    color: #c2d8db;
+}
+
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient( black, #042e44);
+}
+
+button.preco{
+    font-family: 'Roboto';
+}
+
+.preco:hover{
+    background: #313131;
+}
+
+.precommander{
+    background: rgb(235,248,255);
+    background: linear-gradient(346deg, rgba(235,248,255,1) 0%, rgba(149,207,239,1) 36%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 2% 2% 2%;
+    width: 75vw;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 5%;
+}
+
+.precommander .chiffres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin: 5% 2% 2% 2%;;
+}
+
+.precommander .chiffres p{
+    display: flex;
+    align-items: center;
+    font-size: 4vw;
+}
+
+.precommander .chiffres span{
+    font-size: 10vw;
+    font-weight: 900;
+}
+
+.precommander  h2{
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+.precommander h2 span.vous{
+    color: white;
+    text-decoration: underline;
+}
+.precommander .precom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin: 3%;
+}
+.preco{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 70vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+
+.precommander .precom p{
+    font-size: 3vw;
+    max-width: 70vw;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(346deg, rgba(235,248,255,1) 0%, rgba(149,207,239,1) 36%);
+    margin: 2% 2% 10% 2%;
+    width: 75vw;
+    border-radius: 5px;
+    gap: 10px;
+    padding: 5%;
+}
+
+.form h2{
+    display: flex;
+    align-self: start;
+    font-size: 5vw;
+}
+
+.form input.infos{
+    width: 70vw;
+    border-radius: 5px;
+}
+
+.form .forms{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.form .form-example{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .conditions{
+    display: flex;
+    gap: 10px;
+    align-self: start;
+}
+
+.form .conditions p{
+    font-size: 4vw;
+}
+
+.form span.preco{
+    margin: 5%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    gap: 20px;
+    background: #95cfef;
+}
+
+.footer ul.legal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column; 
+    list-style-type: none;
+}
+
+.footer ul.legal li{
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.footer ul.legal li a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+}
+
+.footer ul.legal li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer .infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .reseaux{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer .reseaux img{
+    height: 5vw;
+}
+
+.footer .infos h2{
+    font-size: 6vw;
+    font-weight: 900;
+}
+
+.footer .infos p{
+    font-size: 3vw;
+}
+
+.footer a{
+    color: black;
+}
+
+@media (min-width: 900px) { 
+
+    header .precohead{
+        display: block;
+    }
+    
+    .fcontent .txt p.un {
+        font-size: 3vw;
+        top: 46%;
+        left: 5%;
+    }
+
+    header {
+        border-bottom: solid 5px #9fddff;
+    }
+
+    .fcontent .txt p.deux {
+        font-size: 3vw;
+        top: 74%;
+        left: 66%;
+    }
+
+    .quality {
+        gap: 5%;
+    }
+
+    .quality.un{
+        flex-direction: row;
+        margin: 5% 5% 2% 5%;
+    }
+    .quality.deux{
+        flex-direction: row-reverse;
+        margin: 5% 5% 2% 5%;
+    }
+
+    .qualities img{
+        width: 30vw;
+
+    }
+
+    .mid{
+        background: linear-gradient( #000000,#0f4766);
+    }
+
+    body{
+        background: linear-gradient( black 22%,#95cfef, black);
+    }
+
+    .bottom{
+        background: linear-gradient( #0f4766, #000000);
+    }
+
+    .qualities{
+        gap: 0px;
+    }
+       
+    .quality .txt h2 {
+        font-size: 6vw;
+    }
+
+    .quality p {
+        font-size: 2vw;
+    }
+
+    .quality .txt {
+        max-width: 40vw;
+    }
+
+    .qualities{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .precommander{
+        width: 40vw;
+        padding: 3%;
+    }
+
+    .precommander .chiffres span {
+        font-size: 6vw;
+        color: white;
+    }
+
+    .precommander .chiffres p {
+        font-size: 2vw;
+    }
+
+    .precommander h2 {
+        font-size: 7vw;
+    }
+
+    .precommander .precom p {
+        font-size: 1vw;
+        max-width: 40vw;
+    }
+
+    .form {
+        width: 40vw;
+        padding: 3%;
+    }
+
+    .form h2 {
+        margin: 0;
+    }
+    .form .forms{
+        display: flex;
+        flex-direction: row;
+        max-width: 45vw;
+        flex-wrap: wrap;
+        gap: 2%;
+    }
+
+    .form input.infos {
+        width: 18vw;
+        border-radius: 5px;
+        margin-top: 5%;
+        height: 3vh;
+    }
+
+    .form h2{
+        font-size: 4vw;
+    }
+
+    .preco {
+        width: 40vw;
+    }
+
+    .form .conditions p {
+        font-size: 2vw;
+    }
+
+    header{
+        justify-content: space-between;
+    }
+
+    header .logo{
+        margin: 0% 2% 0% 2%;
+        font-size: 2vw;
+    }
+
+    header button.preco{
+        margin: 0% 2% 0% 2%;
+    }
+
+    header .preco{
+        width: 20vw;
+    }
+
+    .footer ul.legal li a {
+        font-size: 1.2vw;
+    }
+
+    .footer ul.legal{
+        justify-content: space-between;
+        flex-direction: column;
+
+    }
+
+    .footer .infos h2 {
+        font-size: 3vw;
+    }
+
+    .footer .infos p {
+        font-size: 2vw;
+    }
+
+    .footer .reseaux img {
+        height: 3vw;
+    }
+}
