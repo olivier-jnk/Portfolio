@@ -1,3 +1,8 @@
+@font-face {
+    font-family: CameraObscura;
+    src: url(fonts/CameraObscuraDEMO.otf);
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -16,9 +21,13 @@ body{
 ::selection {
     background-color: #F3CCF3; 
     color: #000;
-  }
+}
 
-a, p, h1, h2, h3{
+h1{
+    font-family: 'CameraObscura';
+}
+
+a, p, h2, h3{
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Poppins', sans-serif;
 }
