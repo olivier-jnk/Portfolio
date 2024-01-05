@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.93 27.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bead93;
+      }
+
+      .cls-2 {
+        fill: #f5c579;
+      }
+
+      .cls-3 {
+        fill: #fef8d1;
+      }
+
+      .cls-4 {
+        fill: #88351e;
+      }
+
+      .cls-5 {
+        fill: #7f501f;
+      }
+
+      .cls-6 {
+        fill: #a16225;
+      }
+
+      .cls-7 {
+        fill: #e25f3f;
+      }
+
+      .cls-8 {
+        fill: #f8daab;
+      }
+
+      .cls-9 {
+        fill: #a34a2b;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <polygon class="cls-1" points="53.77 2.19 36.24 6.91 33.71 7.59 32.97 4.85 25.15 6.95 25.89 9.69 5.83 15.09 6.79 18.67 2.89 19.72 4.19 24.55 8.09 23.5 9.05 27.08 29.12 21.68 29.85 24.42 37.67 22.31 36.93 19.58 39.46 18.9 57 14.18 56.03 10.6 59.93 9.55 58.63 4.72 54.73 5.77 53.77 2.19"/>
+      <g>
+        <rect class="cls-8" x="-.34" y="9.94" width="57.73" height="5" transform="translate(-2.25 7.84) rotate(-15.06)"/>
+        <rect class="cls-3" x="3.7" y="6.24" width="49.65" height="12.42" transform="translate(-2.25 7.84) rotate(-15.06)"/>
+        <rect class="cls-6" x="24.48" y="3.4" width="8.09" height="18.08" transform="translate(-2.25 7.84) rotate(-15.06)"/>
+        <rect class="cls-5" x="25.8" y="16.25" width="8.09" height="2.22" transform="translate(-3.49 8.35) rotate(-15.06)"/>
+        <rect class="cls-2" x="32.39" y="4.84" width="2.62" height="12.42" transform="translate(-1.71 9.13) rotate(-15.06)"/>
+        <rect class="cls-7" x="22.99" y="8.46" width="11.06" height="7.97" transform="translate(-2.25 7.84) rotate(-15.06)"/>
+        <rect class="cls-9" x="25.59" y="10.33" width="5.87" height="4.22" transform="translate(-2.25 7.84) rotate(-15.06)"/>
+        <rect class="cls-4" x="25.22" y="10.38" width="5.87" height="1.39" transform="translate(-1.91 7.7) rotate(-15.06)"/>
+      </g>
+    </g>
+  </g>
+</svg>

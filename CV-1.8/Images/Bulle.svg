@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126.94 61.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5e97d1;
+      }
+
+      .cls-2 {
+        fill: #4a80c1;
+      }
+
+      .cls-3 {
+        fill: #c27526;
+      }
+
+      .cls-4 {
+        fill: #2e5e94;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <rect class="cls-4" x="118.57" y="52.43" width="8.37" height="8.65"/>
+      <rect class="cls-4" width="118.57" height="52.43"/>
+      <rect class="cls-2" width="114.79" height="48.65"/>
+      <rect class="cls-3" x="118.57" y="52.43" width="4.52" height="4.52"/>
+      <rect class="cls-4" x="118.57" y="38.68" width="4.52" height="13.75"/>
+      <rect class="cls-4" x="104.35" y="52.43" width="14.23" height="4.52"/>
+      <rect class="cls-1" width="114.79" height="4.52"/>
+      <rect class="cls-2" x="104.35" y="38.68" width="14.23" height="13.75"/>
+      <rect class="cls-2" x="118.57" y="52.43" width="6.39" height="6.17"/>
+    </g>
+  </g>
+</svg>
