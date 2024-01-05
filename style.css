@@ -143,21 +143,21 @@ main{
 }
 
 .projets .num1 .bg-image{
-    background-image: url(images/078862263fe8fc193cecd69721a6be70-cabane-du-Paraclet-saone-et-loire-1600x900.jpg);
+    background-image: url(images/CVminiature.png);
 }
 
 .projets .num2 .bg-image{
-    background-image: url(images/2da2abd49302801a1bff6a8d78b2823195fe903c.jpg);
+    background-image: url(images/Landingpagepc.svg);
 }
 
 
 .projets .num3 .bg-image{
-    background-image: url(images/Sans\ titre\ \(4\).jpg);
+    background-image: url(images/Hangman.png);
 }
 
 
 .projets .num4 .bg-image{
-    background-image: url(images/CVscreen4.png);
+    background-image: url(images/Memory.png);
 }
 
 /* Projets */
@@ -235,7 +235,8 @@ footer ul li:hover a{
 }
 
 footer ul.contact{
-    margin-right: 5%;
+    margin-right: 3%;
+    /* Normalement 5% */
 }
 
 /* Responsive */
