@@ -48,6 +48,29 @@ main{
     width: 80%;
 }
 
+.face{
+    display: flex;
+    position: relative;
+}
+.visageimg{
+    display: flex;
+    z-index: 1;
+}
+.rond{
+    position: absolute;
+    z-index: 0;
+    bottom: 30%;
+    left: 30%;
+}
+
+.carre{
+    position: absolute;
+    z-index: -1;
+    bottom: 10%;
+    right: 20%;
+}
+
+
 .accueil{
     display: flex;
     flex-direction: column;
