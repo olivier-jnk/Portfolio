@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    width: 60vw;
+}

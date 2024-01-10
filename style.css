@@ -48,28 +48,9 @@ main{
     width: 80%;
 }
 
-.face{
-    display: flex;
-    position: relative;
+.face img{
+    width: 30vw;
 }
-.visageimg{
-    display: flex;
-    z-index: 1;
-}
-.rond{
-    position: absolute;
-    z-index: 0;
-    bottom: 30%;
-    left: 30%;
-}
-
-.carre{
-    position: absolute;
-    z-index: -1;
-    bottom: 10%;
-    right: 20%;
-}
-
 
 .accueil{
     display: flex;
@@ -92,6 +73,26 @@ main{
 
 }
 
+.redirection{
+    display: flex;
+    margin-bottom: 5%;
+    /* justify-content: space-between; */
+}
+
+/* .redirection .cv-redirection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+
+}
+
+.redirection .cv-redirection a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+} */
+
 .redirection ul{
     display: flex;
     gap: 2%;
@@ -99,7 +100,7 @@ main{
     text-decoration: none;
     list-style-type: none;
     padding-left: 0;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 
@@ -291,7 +292,7 @@ footer ul.contact{
 
 @media (min-width: 1650px ){
     .accueil .content1 .face img{
-        height: 40vh;
+        min-height: 40vh;
     }
 
 }
