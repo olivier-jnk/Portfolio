@@ -21,6 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Une erreur s'est produite, veuillez réessayer.";
 }
-    header("Location: confirmation.php");
-    exit();
+header("Location: contact.html");
+exit();
+
 ?>
