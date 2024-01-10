@@ -1,6 +1,15 @@
+header img {
+    margin: 5% 0% 0% 5%;
+}
+
 .dev{
     margin-bottom: 2%;
     margin-top: 2%;
+}
+
+main{
+    width: 60%;
+    /* ? 80 à l'origine */
 }
 
 .dev p{
@@ -11,21 +20,27 @@
     width: 100%;
 }
 
-a, p, h1, h2, h3{
-    /* font-family: 'Roboto', sans-serif; */
-    font-family: 'Poppins', sans-serif;
-}
-
 .titre{
     display: flex;
     align-items: center;
+    gap: 5%;
+}
+
+.titre h1{
+    font-size: 3vw;
 }
 
 .titre ul{
     display: flex;
-    width: 15%;
-    justify-content: space-between;
+    width: 35%;
+    justify-content: flex-start;
     list-style-type: none;
+    gap: 5%;
+    padding: 0;
+}
+
+.titre ul li a{
+    font-size: 1.5vw;
 }
 
 .titre ul li a{
@@ -45,4 +60,28 @@ a, p, h1, h2, h3{
 
 .titre ul li a:hover li{
     padding: 5%;
+}
+
+@media (max-width: 750px ){
+
+    main{
+        width: 80%;
+    }
+    .dev p {
+        font-size: 4.5vw;
+    }
+
+    .titre{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .titre h1 {
+        font-size: 5vw;
+        margin: 5% 0% 0% 0%;
+    }
+
+    .titre ul li a {
+        font-size: 2.5vw;
+    }
 }
