@@ -4,9 +4,20 @@ body{
 }
 
 .main{
+    flex-direction: column;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .main img{
     width: 60vw;
+}
+
+.main a{
+    color: black;
+    font-size: 1.5vw;
+}
+
+.main a:hover{
+    color: white;
 }
