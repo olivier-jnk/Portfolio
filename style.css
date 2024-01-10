@@ -134,6 +134,7 @@ main{
 
 .projets .projet .titre h2{
     margin-left: 5%;
+    font-size: 1.5vw;
 }
 
 .projets .projet .titre img{
@@ -280,8 +281,8 @@ footer ul.contact{
 
     
     .projets .projet .titre img {
-        height: 1vw;
-        width: 1vw;
+        height: 2vw;
+        width: 2vw;
     }
 
     header img{
@@ -304,6 +305,10 @@ footer ul.contact{
         height: 50vh;
     }
 
+    .projets .projet .bg-image {
+        height: 40vh;
+    }
+
 
 }
 
@@ -311,6 +316,10 @@ footer ul.contact{
 
     .content1{
         flex-direction: column-reverse;
+    }
+
+    .projets .projet .bg-image {
+        height: 20vh;
     }
 
     .main{
@@ -358,6 +367,14 @@ footer ul.contact{
 }
 
 @media (max-width: 450px ){
+
+    .projets .projet .titre h2 {
+        font-size: 4.5vw;
+    }
+
+    .projets .projet .bg-image {
+        height: 40vh;
+    }
     .projets .projet {
         width: 100%;
     }
