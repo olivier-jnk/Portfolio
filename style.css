@@ -41,6 +41,7 @@ header p{
 
 header img{
     margin: 5%;
+    max-width: 4vw;
 }
 
 main{ 
@@ -160,21 +161,21 @@ main{
 }
 
 .projets .num1 .bg-image{
-    background-image: url(images/CVminiature.png);
+    background-image: url(images/CVminiature.webp);
 }
 
 .projets .num2 .bg-image{
-    background-image: url(images/Landingpagepc.svg);
+    background-image: url(images/LandingPage.webp);
 }
 
 
 .projets .num3 .bg-image{
-    background-image: url(images/Hangman.png);
+    background-image: url(images/Hangman.webp);
 }
 
 
 .projets .num4 .bg-image{
-    background-image: url(images/Memory.png);
+    background-image: url(images/Memory.webp);
 }
 
 /* Projets */
