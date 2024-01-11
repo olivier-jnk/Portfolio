@@ -8,16 +8,41 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 .main img{
+    
     width: 60vw;
 }
 
-.main a{
-    color: black;
-    font-size: 1.5vw;
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    /* gap: 5%;
+    margin-left: 5%; */
+    align-items: center;
+    max-width: 90vw;
 }
 
-.main a:hover{
+header img{
+    min-width: 4vw;
+}
+
+header a.download{
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 900;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    max-height: 2vh;
+}
+
+header a.download:hover{
     color: white;
+    background-color: black;
 }
