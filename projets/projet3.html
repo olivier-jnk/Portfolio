@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="projet.css">
     
+    
+    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     </style>
@@ -28,18 +30,26 @@
                     <li><a href="https://github.com/olivier-jnk/Pendu-">Voir le code</a></li>
                 </ul>
             </div>
-            <div class="dev">
-                <p>La technologie est devenue un pilier fondamental de la société moderne, transformant profondément la manière dont les individus interagissent, travaillent et vivent. Cette révolution technologique a apporté des changements significatifs, à la fois bénéfiques et complexes, à tous les niveaux de la société.</p>
-            </div>
-            <div class="img">
-                <img src="../images/2da2abd49302801a1bff6a8d78b2823195fe903c.jpg" alt="image de présentation du projet">
-            </div>
-            <div class="dev">
-                <p>Dans un premier temps, la technologie a révolutionné les communications. Les avancées dans les domaines des télécommunications et d'Internet ont permis une connectivité globale sans précédent. Les distances physiques ont été réduites et les frontières effacées, facilitant ainsi les échanges d'informations et de connaissances à une échelle mondiale. Cela a ouvert la voie à de nouvelles formes de collaboration, d'éducation et de compréhension interculturelle.</p>
-            </div>
-            <div class="dev">
-                <p>Dans un premier temps, la technologie a révolutionné les communications. Les avancées dans les domaines des télécommunications et d'Internet ont permis une connectivité globale sans précédent. Les distances physiques ont été réduites et les frontières effacées, facilitant ainsi les échanges d'informations et de connaissances à une échelle mondiale. Cela a ouvert la voie à de nouvelles formes de collaboration, d'éducation et de compréhension interculturelle.</p>
-            </div>
+                <div class="dev">
+                    <h2 class="sous-titre"></h2>
+                    <p>Mon premier projet en JavaScript, que je programme sur mon temps libre, est actuellement en cours de développement. Avec un design encore rudimentaire, voire catastrophique, j'ai préféré me concentrer exclusivement sur l'amélioration de mes compétences en JS. Bien que le projet soit entièrement fonctionnel, il manque encore certaines fonctionnalités que j'aimerais introduire, ainsi qu'une refonte totale de la partie visuelle.</p>
+                </div>
+                <div class="dev">
+                    <h2 class="sous-titre">1. Apprentissage des bases :</h2>
+                    <p>Avant de commencer le projet, j'ai jugé nécessaire d'acquérir au moins les bases du langage. J'ai suivi une formation en ligne sur YouTube pour apprendre les fondamentaux du JavaScript, tels que les variables, les conditions, les boucles et les fonctions. Une fois ces bases assimilées et après un peu de pratique pour les ancrer, j'ai pu me lancer dans un véritable projet - celui de créer un jeu du Pendu en JavaScript.</p>
+                </div>
+                <div class="dev">
+                    <h2 class="sous-titre">2. Le commencement - Ancrage des bases :</h2>
+                    <p> J'ai trouvé pertinent de débuter par un projet relativement simple qui me plaisait, malgré son design peu attrayant. En affrontant diverses difficultés, j'ai appris comment exploiter le potentiel de ces bases pour atteindre mes objectifs, tout en continuant constamment ma documentation.</p>
+                </div>
+                <div class="dev">
+                    <h2 class="sous-titre">3. Maitrise du DOM (et autres) :</h2>
+                    <p>La création d'un jeu du Pendu implique des interactions et des éléments visuels. Ces éléments devaient apparaître, disparaître et se mettre à jour tout au long des différentes interactions du joueur. J'ai donc dû apprendre à manipuler le DOM. Par exemple, pour l'affichage des lettres du mot mystère (choisi au hasard parmi une liste de 50 mots), chaque lettre avait une ID correspondant à sa valeur. Si la lettre était 'e', son ID était également 'e'. Lorsque le joueur sélectionnait la lettre 'e', la classe de la lettre passait en 'visible', éliminant ainsi le style CSS masquant chaque lettre et la remplaçant par un petit trait noir.</p>
+                    <p>Pour le déroulement du jeu en général, le joueur choisissait une lettre à deviner. Si la lettre correspondait à une ou plusieurs lettres du mot, celles-ci s'affichaient, et la variable 'points' augmentait de 1. Lorsque 'points' atteignait la taille du mot mystère, la fonction `wingame();` se déclenchait, affichant l'écran de victoire et le score égal à 7 fois la valeur de 'vies'. Si la lettre choisie ne correspondait à aucune lettre du mot, 'vies' diminuait de 1. Lorsque 'vies' était inférieur à 1, le mot était révélé avec une alerte, et la fenêtre se rechargeait pour une nouvelle partie.</p>
+                    <p>Chaque stade de 'vies' faisait apparaître une partie du pendu. Par exemple, à 'vies' = 7, le pendu n'était pas visible, et à 'vies' = 6, la première poutre apparaissait, et ainsi de suite.</p>
+                    <p>Initialement, le choix de la lettre se faisait via un prompt. Plus tard, j'ai opté pour un clavier virtuel, plus simple et intuitif, limitant les problèmes potentiels. Le joueur avait un clavier de boutons composé de toutes les lettres de l'alphabet. Lorsqu'il cliquait sur une lettre, la vérification de la correspondance s'opérait, et le bouton passait au vert ou au rouge en fonction du résultat. Le bouton devenait inactif, indiquant qu'il avait déjà été cliqué, simplifiant ainsi le jeu pour le joueur.</p>
+                    <p>Ce projet m'a permis de réaliser d'énormes progrès en JavaScript et de me confronter à des problématiques réelles. Bien sûr, je n'ai pas détaillé l'intégralité du processus de création ni le fonctionnement précis du code. Si vous êtes intéressé, voici le <a href="https://github.com/olivier-jnk/Pendu-">[lien vers le code]</a> et le <a href="https://olivier-jnk.github.io/Pendu-/">[lien vers le jeu du Pendu]</a>.</p>
+                </div>
         </article>
     </main>
 

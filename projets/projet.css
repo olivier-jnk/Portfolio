@@ -12,6 +12,15 @@ main{
     /* ? 80 à l'origine */
 }
 
+a{
+    text-decoration: none;
+    color: #c625d7;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .dev p{
     font-size: 1.5vw;
 }
