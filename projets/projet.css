@@ -73,11 +73,15 @@ a:hover{
 
 @media (max-width: 750px ){
 
+    header img {
+        max-width: 9vw;
+    }
+
     main{
         width: 80%;
     }
     .dev p {
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     .titre{
@@ -86,11 +90,23 @@ a:hover{
     }
 
     .titre h1 {
-        font-size: 5vw;
+        font-size: 8vw;
         margin: 5% 0% 0% 0%;
     }
 
-    .titre ul li a {
-        font-size: 2.5vw;
+    
+    .titre ul {
+    width: 100%;
     }
+
+
+    .titre ul li a {
+        font-size: 4.5vw;
+    }
+}
+
+/* Code pendu */
+
+.codePenduDom{
+    display: flex;
 }

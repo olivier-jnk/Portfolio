@@ -289,6 +289,10 @@ footer ul.contact{
 
 @media (max-width: 750px ){
 
+    header img {
+        max-width: 10vw;
+    }
+
     .content1{
         flex-direction: column-reverse;
     }

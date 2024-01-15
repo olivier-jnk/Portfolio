@@ -46,3 +46,14 @@ header a.download:hover{
     color: white;
     background-color: black;
 }
+
+@media (max-width: 750px ){
+    header img {
+        min-width: 9vw;
+    }
+
+    header a.download {
+        font-size: 4.5vw;
+        padding: 2%;
+    }
+}
