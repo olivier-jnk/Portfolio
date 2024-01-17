@@ -162,16 +162,16 @@ main{
 }
 
 .projets .num1 .bg-image{
-    background-image: url(images/CVminiature.webp);
+    background-image: url(images/CV-img.svg);
 }
 
 .projets .num2 .bg-image{
-    background-image: url(images/LandingPage.webp);
+    background-image: url(images/Landingpagepc.svg);
 }
 
 
 .projets .num3 .bg-image{
-    background-image: url(images/Hangman.webp);
+    background-image: url(images/Pendu-img.svg);
 }
 
 
