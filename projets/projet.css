@@ -71,6 +71,13 @@ a:hover{
     padding: 5%;
 }
 
+@media (max-width: 1400px ){
+    .dev p {
+        font-size: 2vw;
+    }
+
+}
+
 @media (max-width: 750px ){
 
     header img {

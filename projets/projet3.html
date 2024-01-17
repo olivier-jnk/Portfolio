@@ -45,9 +45,9 @@
                 <div class="dev">
                     <h2 class="sous-titre">3. Maitrise du DOM (et autres) :</h2>
                     <p>La création d'un jeu du Pendu implique des interactions et des éléments visuels. Ces éléments devaient apparaître, disparaître et se mettre à jour tout au long des différentes interactions du joueur. J'ai donc dû apprendre à manipuler le DOM. Par exemple, pour l'affichage des lettres du mot mystère (choisi au hasard parmi une liste de 50 mots), chaque lettre avait une ID correspondant à sa valeur. Si la lettre était 'e', son ID était également 'e'. Lorsque le joueur sélectionnait la lettre 'e', la classe de la lettre passait en 'visible', éliminant ainsi le style CSS masquant chaque lettre et la remplaçant par un petit trait noir.</p>
-                    <div class="img codePenduDom">
-                        <img src="../images/MotPop.png" alt="">   
-                    </div>
+                    <!-- <div class="img codePenduDom">
+                        <img src="../images/" alt="">   
+                    </div> -->
                     <p>Pour le déroulement du jeu en général, le joueur choisissait une lettre à deviner. Si la lettre correspondait à une ou plusieurs lettres du mot, celles-ci s'affichaient, et la variable 'points' augmentait de 1. Lorsque 'points' atteignait la taille du mot mystère, la fonction `wingame();` se déclenchait, affichant l'écran de victoire et le score égal à 7 fois la valeur de 'vies'. Si la lettre choisie ne correspondait à aucune lettre du mot, 'vies' diminuait de 1. Lorsque 'vies' était inférieur à 1, le mot était révélé avec une alerte, et la fenêtre se rechargeait pour une nouvelle partie.</p>
                     <p>Chaque stade de 'vies' faisait apparaître une partie du pendu. Par exemple, à 'vies' = 7, le pendu n'était pas visible, et à 'vies' = 6, la première poutre apparaissait, et ainsi de suite.</p>
                     <!-- <div class="img codePenduDom">
