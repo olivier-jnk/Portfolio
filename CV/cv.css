@@ -23,8 +23,6 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 5% 0%;
-    /* gap: 5%;
-    margin-left: 5%; */
     align-items: center;
     max-width: 90vw;
 }
