@@ -3,16 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MemoryJs-page-de-presentation</title>
+    <title>Memory JS.</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="projet.css">
-    
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-    </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
+    <link rel="icon" type="image/svg" href="../images/favicon.svg">
 </head>
 <body>
     <header>
@@ -29,27 +26,25 @@
                 </ul>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
                 <p>Pour poursuivre mon apprentissage du JS, j’ai commencé en parallèle du pendu le développement d’un autre petit jeu. Manquant encore de fonctionnalités et présentant quelques bugs, le projet est en cours et disponible au test.</p>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
+                <h2 class="sous-titre">1. Concept et complications :</h2>
                 <p>On retourne par deux des cartes posées de face, si les deux correspondent, elles restent face visible, sinon elles se retournent. Le but étant de finir le plus rapidement et avec le moins de coups avec toutes les cartes retournées. Un concept qui semblait simple, mais dès le commencement du code, je faisais face à un problème. L’implémentation d’images dans une variable JS. Je devais alors trouver un moyen, que j'ai fini par trouver assez vite en me documentant.</p>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
+                <h2 class="sous-titre">2. Quelques explications :</h2>
                 <p>Apprenant alors plus en profondeur le fonctionnement et l’utilisation des objets, j’ai pu mettre en place assez rapidement un système efficace qui stockait chaque carte cliquée dans un objet. L’objet était réinitialisé après chaque coup (paire de cartes cliquées). Chaque carte présente dans le tableau ‘images’ était placée deux fois aléatoirement, jusqu’à ce qu’il ne reste plus rien à placer. Un eventListener ‘click’ était attribué à chaque carte. Si celle-ci était cliquée, sa classe = ‘invisible’ disparaissait et se rétablissait donc la visibilité de l’img (carte). (visibility: visible; dans le CSS.) Si la seconde carte cliquée avait la même ID que la première, alors la classe ‘found’ était attribuée aux deux cartes et +1 était ajouté à la variable ‘bonnePioche’. Si la variable ‘bonnePioche’ atteignait une valeur égale ou supérieure à la taille du tableau images, alors se lançait la fonction winGame(). En fonction du nombre de coups (suivi dans le code), avec lequel le joueur finissait la partie, un message différent lui était affiché.</p>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
+                <h2 class="sous-titre">3. Améliorations à venir :</h2>
                 <p>Je ne suis que très peu rentré dans les détails de la conception du projet, mais étant encore inachevé, je compte régler quelques bugs, qui nuisent au bon gameplay. (Si clic sur une carte deux fois d’affilé, celle-ci gagne la classe ‘found’ et reste donc retournée. Le deuxième problème est que une fois un lot de cartes devinées, l’eventListener ‘click’, reste actif et peut mettre en péril le déroulement de la partie.) Je voudrais également, comme pour le pendu, essayer de faire un design plus attractif, revoir le responsive et implémenter la possibilité de choisir la taille de son terrain de jeu (nombre de cartes, actuellement 3X4). Ajout de 6x6 pour commencer. Prenant en compte la maintenabilité du code, l’ajout de cette fonctionnalité ne devrait pas poser de problèmes.</p>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
+                <h2 class="sous-titre">4. Progression :</h2>
                 <p>Comme je l’ai dit précédemment, j’ai pu à travers ce projet maîtriser davantage les objets, mais j’ai aussi au cours du projet commencé à voir les setTimeout, qui m’ont été bien utiles, et les bases de Git, qui m’ont permis de gagner un temps précieux quant à la mise à jour du code sur GitHub (git clone [lien GitHub du projet], puis add, commit(s) et push pour mettre à jour le code automatiquement). J’ai commencé à m’intéresser aux systèmes de branches, mais je ne le maîtrise pas encore très bien.</p>
             </div>
             <div class="dev">
-                <h2 class="sous-titre"></h2>
                 <p>Je vous invite à <a href="https://olivier-jnk.github.io/Memory/">jouer au jeu</a> et/ou <a href="https://github.com/olivier-jnk/Memory/">voir le code</a>, pour mieux comprendre comment j’ai fait, si cela vous intéresse. Vous pouvez aussi jeter un coup d'œil au <a href="projet3.html">projet du Pendu !</a></p>
             </div>
         </article>

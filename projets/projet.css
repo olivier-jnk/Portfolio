@@ -9,7 +9,6 @@ header img {
 
 main{
     width: 60%;
-    /* ? 80 initialement */
 }
 
 a{
@@ -59,12 +58,10 @@ a:hover{
 
 .titre ul img{
     width: 5vw;
-    /* height: 5vh; */
 }
 
 .titre ul li a:hover{
     text-decoration: underline;
-
 }
 
 .titre ul li a:hover li{
@@ -75,7 +72,6 @@ a:hover{
     .dev p {
         font-size: 2vw;
     }
-
 }
 
 @media (max-width: 750px ){
@@ -101,11 +97,9 @@ a:hover{
         margin: 5% 0% 0% 0%;
     }
 
-    
     .titre ul {
     width: 100%;
     }
-
 
     .titre ul li a {
         font-size: 4.5vw;
@@ -113,7 +107,6 @@ a:hover{
 }
 
 /* Code pendu */
-
 .codePenduDom{
     display: flex;
 }
