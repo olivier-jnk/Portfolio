@@ -107,6 +107,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     gap: 5vh;
+    margin: 10% 0% 0% 0%;
 }
 
 .projets .projet{
