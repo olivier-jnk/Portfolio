@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- Pas modifier page, pour qu'elle reste accessible avec le QRcode (pas modifier le lien.) au moins garder le nom du fichier -->
-    <h1>Quelques liens Utiles</h1>
-    <ul>
-        <li>Portfolio</li>
-        <li>GitHub</li>
-        <li>adresse mail.</li>
-        <li>Voir projets</li>
-    </ul>
-
-
-    
-</body>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Liens - Utiles</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/svg" href="images/favicon.svg">
+        <script src="https://kit.fontawesome.com/c26082899f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="liens-utiles.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="images/logo2.svg" alt="Logo"></a>
+        </header>
+        <h1>Quelques liens Utiles</h1>
+        <ul class="links">
+            
+            <div class="link" onclick="redirection('portfolio')">
+                <ul>
+                    <li><img src="images/websiteIcon.svg" alt=""></li>
+                    <li><p>Portfolio</p></li>
+                </ul>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <div class="link" onclick="redirection('github')" >
+                <ul>
+                    <li>
+                        <img src="images/Github-Icon.svg" alt="">
+                    </li>
+                    <li><p>Github</p></li>
+                </ul>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+            <div class="link" onclick="redirection('mail')" >
+                <ul>
+                    <li>
+                        <img src="images/mailIcon.svg" alt="">
+                    </li>
+                    <li><p>Contact</p></li>
+                </ul>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>
+        </ul>
+        <script src="liensUtiles.js"></script>
+    </body>
 </html>
