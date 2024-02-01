@@ -1,0 +1,49 @@
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    align-items: center;
+    padding: 1% 2%;
+    background-color:#fdf1fd ;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: #f5e2f5 ;
+}
+
+
+.link ul{
+    display: flex;
+    gap: 20%;
+    padding: 0;
+}
+.link ul a{
+    /* text-decoration: none;
+    list-style-type: none; */
+}
+.link ul li{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.link ul img{
+    width: 2vw;
+}
+.link ul li p{
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.link a{
+    margin-right: 3%;
+}
+
+.link:hover i{
+    color: rgb(105, 105, 253);
+}
