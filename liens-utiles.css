@@ -21,15 +21,10 @@
     background-color: #f5e2f5 ;
 }
 
-
 .link ul{
     display: flex;
     gap: 20%;
     padding: 0;
-}
-.link ul a{
-    /* text-decoration: none;
-    list-style-type: none; */
 }
 .link ul li{
     display: flex;

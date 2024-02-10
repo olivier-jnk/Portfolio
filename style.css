@@ -114,6 +114,7 @@ main{
     display: flex;
     position: relative;
     width: 45%;
+    overflow: hidden;
 }
 
 .projets .projet .titre h2{
@@ -164,18 +165,38 @@ main{
 
 .projets .num1 .bg-image{
     background-image: url(images/CV-img.svg);
+    transition: transform 0.3s ease;
+}
+
+.projets .num1:hover .bg-image {
+    transform: scale(1.06);
 }
 
 .projets .num2 .bg-image{
     background-image: url(images/Landingpagepc.svg);
+    transition: transform 0.3s ease;
+}
+
+.projets .num2:hover .bg-image {
+    transform: scale(1.06);
 }
 
 .projets .num3 .bg-image{
     background-image: url(images/Pendu-img.svg);
+    transition: transform 0.3s ease;
+}
+
+.projets .num3:hover .bg-image {
+    transform: scale(1.06);
 }
 
 .projets .num4 .bg-image{
     background-image: url(images/Memory.webp);
+    transition: transform 0.3s ease;
+}
+
+.projets .num4:hover .bg-image {
+    transform: scale(1.06);
 }
 
 /* Projets */
@@ -208,11 +229,12 @@ main{
 
 /* Mise en place du systeme d'apparition d'informations au hover. */
 .informations p,h1,img{
-    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease;
 }
 
 .informations:hover p,h1,img{
-    visibility: visible;
+    opacity: 1;
 }
 
 footer{
