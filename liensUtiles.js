@@ -7,6 +7,6 @@ function redirection(url){
         window.open("https://github.com/olivier-jnk", "_blank")
     }
     else if(url === "mail" ){
-        window.open("mailto:oliviertrouvain01@gmail.com", "_blank")
+        window.open("mailto:adresse", "_blank")
     }
 }
